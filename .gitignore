@@ -1,0 +1,20 @@
+1) The NameNode is the centerpiece of an HDFS file system.
+   It keeps the directory tree of all files in the file system, and tracks where across the cluster the file data is kept.
+   When the NameNode goes down, the file system goes offline.
+   Client applications talk to the NameNode whenever they wish to locate a file, or when they want to add/copy/move/delete a file.
+   The NameNode responds the successful requests by returning a list of relevant DataNode servers where the data lives.
+
+2) The following commands were practiced 
+   > Put Command
+   > List Command
+   > Get Command
+   > Make Directory Command
+   > View contents of particular file
+   > Duplicating a Complete File inside the HDFS
+   > Duplicating a File from HDFS to the Local File System
+   > Removing the File
+   > Run a DFS Filesystem to Check Utility
+   > Run a Cluster Balancing Utility
+   > Check Directory Space in HDFS
+   > List all the Hadoop File System Shell Commands
+   > Asking for Help
